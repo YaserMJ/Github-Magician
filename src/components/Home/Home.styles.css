@@ -1,0 +1,83 @@
+/*  repeated Pattern background  */
+.bkPic2 {
+      background-image: url("./download3.png");
+      background-repeat: repeat;
+}
+/* GitWizard (LOGO) Configs */
+.GitWizard {
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+}
+/* Floating Animation */
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+/* Floating animation keyframes */
+@keyframes floating {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 30px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}
+/* Button default configs removal */
+.findMore {
+  background: none;
+  font-size: 40px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 0px transparent;
+
+  border: 0px solid transparent;
+
+  text-shadow: 0px 0px 0px transparent;
+}
+
+/* Technologies used logos configs */
+.logos {
+  width: 75px;
+  height: 75px;
+}
+/* Three font awesome icons in the jumbotron */
+.three {
+  font-size: 50px;
+  color : #0033CD;
+}
+
+
+/* Gradient Animated Background */
+
+/* .bk {
+  background: linear-gradient(43deg, #0033CD, #ffffff);
+background-size: 400% 400%;
+
+-webkit-animation: AnimationName 20s ease infinite;
+-moz-animation: AnimationName 20s ease infinite;
+animation: AnimationName 20s ease infinite;
+}
+
+/* Gradient animated background keyframes */
+/* @-webkit-keyframes AnimationName {
+    0%{background-position:36% 0%}
+    50%{background-position:65% 100%}
+    100%{background-position:36% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:36% 0%}
+    50%{background-position:65% 100%}
+    100%{background-position:36% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:36% 0%}
+    50%{background-position:65% 100%}
+    100%{background-position:36% 0%}
+} */ 
